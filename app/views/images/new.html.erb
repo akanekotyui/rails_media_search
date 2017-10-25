@@ -1,0 +1,11 @@
+<%= form_for Image.new do |f| %>
+  <%= f.label :image_id %>
+  <%= f.text_field :image_id %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+  <%= f.label :url %>
+  <%= f.text_field :url %>
+  <%= f.submit %>
+<% end %>
